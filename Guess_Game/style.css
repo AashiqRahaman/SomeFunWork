@@ -1,0 +1,24 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    background-color: rgb(99, 143, 143);
+  }
+  
+  #game-container {
+    margin: 50px auto;
+    width: 300px;
+    border: 1px solid #ddd;
+    padding: 20px;
+  }
+  
+  #guess,
+  #submit-guess {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  #message,
+  #score {
+    font-weight: bold;
+  }
