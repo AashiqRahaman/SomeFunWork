@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Separator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Audio Separator</h1>
+        <input type="file" id="audioFile" accept="audio/*">
+        <button onclick="uploadAudio()">Upload and Separate</button>
+        <div id="progressBar" class="hidden">Processing...</div>
+        <div id="downloadLinks" class="hidden">
+            <a id="downloadVocal" href="#" download>Download Vocals</a>
+            <a id="downloadInstrumental" href="#" download>Download Instrumentals</a>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
