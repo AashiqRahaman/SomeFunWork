@@ -22,16 +22,16 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     display: inline-block;
-    background: linear-gradient(-45deg, #cedf93, #d3658f, #8e6bee, #e4794f);
+    background: linear-gradient(-45deg, #cedf93, #d3658f, #8e6bee, #f74c09);
     background-size: 200% 200%;
-    animation: gradient 10s ease infinite;
+    animation: gradient 8s ease infinite;
 }
 
 button {
     margin-top: 10px;
     padding: 10px 20px;
     background-color: #4CAF50;
-    color: white;
+    color: rgb(233, 247, 45);
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -68,7 +68,7 @@ button:hover {
         background-position: 50% 0%;
     }
     75%{
-        background-position: 100% 100%;
+        background-position: 50% 50%;
     }
     100%{
         background-position: 0% 0%;
